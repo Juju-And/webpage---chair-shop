@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.header_container{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+.header_content{
+    border: 1px solid red ;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.introduction{
+    background-color: gray;
+    height: 400px;
+}
+
+.gallery_container{
+    background-color: blue;
+    height: 270px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.gallery{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes{
+    width: 30%;
+}
+
+.priceList{
+    background-color: gray;
+    height: 800px;
+}
