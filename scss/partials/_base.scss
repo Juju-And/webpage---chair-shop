@@ -1,0 +1,94 @@
+// Pricelist Section
+
+.priceList {
+  background-color: lightgrey;
+  height: 800px;
+}
+
+@mixin boxPriceList() {
+  position: relative;
+  .topCircles {
+    border: 2px solid #9E9E9E;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+    padding-top: 50px;
+  }
+
+  .circle1 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #9E9E9E;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -53px;
+    right: 100px;
+  }
+
+  .circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #9E9E9E;
+    position: absolute;
+    /*top: 0px;*/
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: #00C4A0;
+  }
+
+  div.circlePrice {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #9E9E9E;
+    border-radius: 50%;
+    //margin-left: 20%;
+    //margin-right: 20%;
+
+    span {
+      vertical-align: super;
+    }
+  }
+  button {
+    background-color: #00C4A0;
+    color: white;
+    height: 50px;
+
+  }
+}
+
+section.priceList {
+  ul.priceList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.box_basic {
+    @include boxPriceList();
+  }
+
+  div.box_standard {
+    @include boxPriceList();
+  }
+
+  div.box_advance {
+    @include boxPriceList();
+  }
+
+}
+
+
+
+
+
+
+
+
