@@ -1,0 +1,22 @@
+footer {
+  color: #9E9E9E;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: space-between;
+  p:first-child{
+    margin-right: 20%;
+  }
+  p:last-child {
+    text-transform: uppercase;
+    span {
+      font-weight: bold;
+    }
+  }
+  ul.signs_container {
+    list-style: none;
+    li {
+      display: inline-block;
+    }
+  }
+}
