@@ -2,7 +2,7 @@
 
 .priceList {
   background-color: lightgrey;
-  height: 800px;
+  height: 550px;
 }
 
 @mixin boxPriceList() {
@@ -54,11 +54,11 @@
     border-radius: 50%;
     text-align: center;
     margin-left: 33%;
-    p:first-child{
+    p:first-child {
       margin-top: 17%;
       font-size: 28px;
     }
-    p:nth-child(2){
+    p:nth-child(2) {
       font-size: 15px;
       margin-top: -32%;
     }
@@ -67,18 +67,14 @@
       font-size: 15px;
     }
   }
-  div.optionBars{
+  div.optionBars {
     //background-color: #ebe9f9;
     p {
       height: 10%;
       background-color: #ebe9f9;
 
     }
-
   }
-
-
-
 
   button {
     text-transform: uppercase;
@@ -92,7 +88,7 @@
 }
 
 section.priceList {
-
+  border: 2px solid red;
   ul.priceList {
     list-style: none;
     li {
@@ -114,10 +110,40 @@ section.priceList {
 
 }
 
+// Form
 
+section.contactForm_container {
+  border: 2px solid red;
+  background-color: lightgrey;
+  height: 550px;
+  width: 100%;
+  table {
+    width: 100%;
+  }
+  //input {
+  //  width: 35%;
+  //}
+  //textarea {
+  //  width: 35%;
+  //
+  //}
 
+  form {
+    .column {
+      display: inline-block;
+    }
+    .column:nth-child(2){
+      float: right;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
 
-
+}
 
 
 
