@@ -9,24 +9,13 @@
 * {
   box-sizing: border-box;
   font-family: Raleway SansSerif;
+  //border: 1px solid red !important;
 }
 
 body {
   margin-left: 10%;
   margin-right: 10%;
 }
-
-
-
-.logo {
-  width: 80%;
-}
-
-.logo > span {
-  color: #00C4A0;
-}
-
-
 
 .introduction {
   background: -moz-linear-gradient(top, rgba(235, 233, 249, 1) 49%, rgba(235, 233, 249, 1) 63%, rgba(216, 208, 239, 1) 85%, rgba(193, 191, 234, 1) 100%);
@@ -35,9 +24,8 @@ body {
 
 .introduction_container {
   box-sizing: border-box;
-  border: 1px solid red;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,8 +62,10 @@ a.front-back {
   text-decoration: none;
 }
 
+
+// Gallery
+
 .gallery_container {
-  border: 2px solid red;
   background-color: white;
   height: 250px;
   padding-left: 10%;
@@ -92,7 +82,6 @@ a.front-back {
 .boxes {
   width: 30%;
   height: 210px;
-  border: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -114,7 +103,7 @@ a.front-back {
 
 .box1_title {
   height: 50px;
-  width: 100%;
+  //width: 100%;
   margin-left: 3px;
   margin-top: -3%;
   position: absolute;
@@ -146,7 +135,7 @@ a.front-back {
 
 .box2_title {
   height: 50px;
-  width: 100%;
+  //width: 100%;
   margin-left: 3px;
   margin-top: -3%;
   position: absolute;
@@ -168,6 +157,8 @@ a.front-back {
   background-color: #00C4A0;
   display: block;
 }
+
+
 
 
 
